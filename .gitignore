@@ -1,0 +1,38 @@
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+dist/
+build/
+
+# ===== SENSITIVE =====
+.env
+*.env
+
+# ===== UPLOADED FILES & VECTOR INDEX (large, user-specific) =====
+backend/data/uploads/
+backend/data/faiss_index/
+backend/data/metadata.json
+
+# ===== AI MODEL CACHE (downloaded automatically, ~90MB+) =====
+# Stored in C:\Users\<you>\.cache\huggingface — not in project
+.cache/
+*.bin
+*.safetensors
+
+# ===== NODE / REACT =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== LOGS =====
+*.log
+npm-debug.log*
